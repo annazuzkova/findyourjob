@@ -1,6 +1,7 @@
 .header{
     padding-top: 45px;
 }
+/* стилі для хедедер нав */
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -19,9 +20,46 @@
     align-items: center;
     gap: 40px;
 }
-.register{
-    padding: 15px 30px;
-    background: #1A75E8;
-    border-radius: 5px;
-    color: #FFFFFF;
+/* стилі для хедер маин */
+.header-main{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+  }
+.header-card-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+}
+/* .header-main-card{
+    max-width: 460px;
+} */
+.header-card-text{
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.header-card-search{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background: #FFFFFF;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    padding: 10px 10px 10px 25px;
+    margin-bottom: 25px;
+}
+.search-input{
+    border: none;
+    outline: none;  
+}
+.search-button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-button::before{
+    content: url('/img/search\ \(1\).svg');
 }

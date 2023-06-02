@@ -10,4 +10,27 @@ body {
   width: 1176px;
   margin: 0 auto;
 }
-
+.button{
+  padding: 15px 30px;
+  background: #1A75E8;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+}
+.header-card-example{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-example-title,
+.header-example-item{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B2B2B2;
+}
+.header-example-item{
+  padding: 5px 10px;
+  border: 1px solid #B2B2B2;
+  border-radius: 5px;
+}
