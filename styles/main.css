@@ -1,0 +1,55 @@
+/* сектія категорії */
+.main-category{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.category-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+.catugory-items{
+    display: flex;
+    gap: 30px;
+}
+.catugory-item{
+    min-width: 166px;
+    min-height: 128px;
+    background:  #F2F3F6;;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.catugory-item::before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/category/brush.svg);
+}
+.catugory-item:nth-child(2)::before{
+    background-image: url(/img/category/browser.svg);
+}
+.catugory-item:nth-child(3)::before{
+    background-image: url(/img/category/edit.svg);
+}
+.catugory-item:nth-child(4)::before{
+    background-image: url(/img/category/fingerprint.svg);
+}
+.catugory-item:nth-child(5)::before{
+    background-image: url(/img/category/camera.svg);
+}
+.catugory-item:nth-child(6)::before{
+    background-image: url(/img/category/school.svg);
+}
+.catugory-item:hover{
+    background-color: #1A75E8;
+    color: #fff;
+    cursor: pointer;
+}
+.catugory-item:hover::before{
+    filter: brightness(0) invert(1); 
+}
